@@ -1,0 +1,101 @@
+ /* html,body{
+    height: 100%;
+    width: 100%; 
+
+} */
+body{
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 17px;
+    width: 500px;
+    height: 500px;
+    background-color: ivory;
+    }
+
+
+    h2{
+        font-size: 25px;
+        
+        text-transform: capitalize;
+        letter-spacing: 2px;
+    
+    }
+    
+    h3{
+        font-size: 25px;
+        text-align: justify;
+    
+    }
+    
+    h4{
+        margin-top: 40px;
+        text-align: left;
+    }
+    
+    h5{ 
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    .select1{
+        margin-top: 20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid lightgray;
+        outline: none;
+    
+    }
+    .select2{
+        margin-top: 20px;
+        width: 110px;
+        height: 30px;
+        border: 1px solid lightgray;
+        outline: none;
+    }
+    .input{
+        margin-top: 20px;
+    }
+
+
+.card{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    position:relative;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 0px;
+
+}
+.card::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    background-image: linear-gradient(to right, #b3ffab, #12fff7);;
+    width: 100%;
+    height: 100%;
+    filter: blur(25px);
+    z-index: -1;
+    
+}
+@media (max-width: 500px){
+    .container{
+        width: 100%;
+    }
+}
+.select1,.select2 {
+    cursor: pointer;
+}
