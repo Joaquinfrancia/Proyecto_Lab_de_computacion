@@ -51,7 +51,7 @@ body{
     
     .select1{
         margin-top: 20px;
-        width: 110px;
+        width: 200px;
         height: 30px;
         border: 1px solid lightgray;
         outline: none;
@@ -59,15 +59,12 @@ body{
     }
     .select2{
         margin-top: 20px;
-        width: 110px;
+        width: 200px;
         height: 30px;
         border: 1px solid lightgray;
         outline: none;
     }
-    .input{
-        margin-top: 20px;
-    }
-
+    
 
 .card{
     align-items: center;
