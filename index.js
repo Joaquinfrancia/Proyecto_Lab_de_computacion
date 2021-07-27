@@ -29,3 +29,6 @@
            alert("Debe seleccionar una moneda en cada seccion")
         }
     }
+
+
+

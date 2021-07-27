@@ -10,7 +10,8 @@ body{
     margin: 0px auto 0px auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(0.55turn,red,blue);
+    
+    background: linear-gradient(0.89turn, #3f87a6, #ebf8e1, #f69d3c);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,8 +35,11 @@ body{
     }
     
     h3{
+        
         font-size: 25px;
-        text-align: justify;
+        text-align: center;
+        letter-spacing: 1px;
+        
     
     }
     
@@ -82,10 +86,10 @@ body{
     top: 0px;
     left: 0px;
     content: '';
-    background-image: linear-gradient(to right, black, black);;
+    background: linear-gradient(to right, #659999, #f4791f);
     width: 100%;
     height: 100%;
-    filter: blur(25px);
+    filter: blur(50px);
     z-index: -1;
     
 }
@@ -96,4 +100,7 @@ body{
 }
 .select1,.select2 {
     cursor: pointer;
+}
+button{
+    margin: 20px
 }
