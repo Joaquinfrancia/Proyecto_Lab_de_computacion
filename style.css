@@ -10,13 +10,13 @@ body{
     margin: 0px auto 0px auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #eee;
+    background: linear-gradient(0.55turn,red,blue);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .container{
-    border: 1px solid;
+    
     border-radius: 20px;
     padding: 17px;
     width: 500px;
@@ -72,17 +72,17 @@ body{
     height: 500px;
     width: 500px;
     position:relative;
-    border: 1px solid;
     border-radius: 20px;
     padding: 0px;
 
 }
 .card::after{
+    border: 5px solid;
     position: absolute;
     top: 0px;
     left: 0px;
     content: '';
-    background-image: linear-gradient(to right, #b3ffab, #12fff7);;
+    background-image: linear-gradient(to right, black, black);;
     width: 100%;
     height: 100%;
     filter: blur(25px);
